@@ -1,0 +1,153 @@
+@@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  float: left;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+  transition: all, 0.1s;
+}
+
+a:hover{
+  color: white;
+  text-shadow:0 0 10px white;
+}
+
+
+
+/* СТИЛИ ШАПКИ */
+header{
+  width: 96%;
+  float: left;
+  padding: 2%;
+}
+
+header #logo{
+  width: 40%;
+  float: left;
+  font-family: 2em;
+}
+
+header #logo a{
+  font-size: 1.1em;
+}
+
+
+header #menu{
+  width: 28%;
+  float: right;
+  text-align: right;
+}
+
+#first{
+  background: url(img/abstr.gif) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100%;
+}
+
+#centerblock{
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 4%;
+  margin-top: 6%;
+  float: left;
+  background-color: rgba(58, 0, 255, 0.5);
+  /*border: 3px solid rgb(128, 0, 255);*/
+  box-shadow: 0 0 100px rgba(58, 0, 255);
+  border-radius: 10%;
+}
+
+#centerblock h1{
+  font-size: 5em;
+  line-height: 0px;
+  margin-left: -5px;
+  color: white;
+  text-shadow: 0 0 20px;
+}
+
+#centerblock h4{
+  margin-left: 0px;
+  font-weight: normal;
+  line-height: 100%;
+}
+
+#centerblock p{
+  font-size: 18px;
+}
+
+#uslugi{
+  color: white;
+  text-shadow: 0px 0px 1px white;
+  margin-left: -23px;
+}
+
+#sovet{
+  font-weight: bold;
+}
+
+.form{
+  background-color: white;
+  color: rgb(128, 0, 255);
+  text-shadow: 0 0 1px rgb(128, 0, 255);
+  font-weight: bold;
+  width: 115px;
+  font-size: 1.1em;
+  transition: 0.3s;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0px;
+  height: 38px;
+  padding-left: 10px;
+  width: 170px;
+
+}
+.form:focus {
+  outline: none;
+  background-color: rgb(128, 0, 255);
+  color: white;
+}
+
+#done{
+  background-color: white;
+  color: rgb(128, 0, 255);
+  text-shadow: 0 0 1px rgb(128, 0, 255);
+  font-weight: bold;
+  width: 115px;
+  font-size: 1.1em;
+  transition: 0.3s;
+  display: inline-block;
+  outline: none;
+  border: 2px solid white;
+  height: 42px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+#done:hover{
+  background-color: rgb(128, 0, 255);
+  transition: 0.3s;
+  color: white;
+  text-shadow: 0 0 5px white;
+}
